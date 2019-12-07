@@ -1,6 +1,10 @@
 {
   "name": "Insight",
   "version": "0.0.1",
+    "engines": {
+        "node": "0.12.x",
+        "npm": "2.12.x"
+      },
   "dependencies": {
     "angular": "~1.2.13",
     "angular-resource": "~1.2.13",
@@ -13,6 +17,7 @@
     "zeroclipboard": "~1.3.2",
     "ngprogress": "~1.0.4",
     "angular-ui-utils": "~0.1.1",
-    "angular-gettext": "~1.1.0"
+    "angular-gettext": "~1.1.0",
+    "async": "^2.6.1"
   }
 }

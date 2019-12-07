@@ -1,12 +1,12 @@
 {
   "name": "insight-bitcore",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the dogecoin network and build your own services with it.",
   "version": "0.2.5",
   "author": {
     "name": "Ryan X Charles",
     "email": "ryan@bitpay.com"
   },
-  "repository": "git://github.com/bitpay/insight.git",
+  "repository": "git://github.com/atomrigs/insight",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -30,15 +30,16 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight/issues"
+    "url": "https://github.com/atomrigs/insight/issues"
   },
-  "homepage": "https://github.com/bitpay/insight",
+  "homepage": "https://github.com/atomrigs/insight",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "bitcoin",
+    "dogecoin",
+    "dogecoin",
     "bitcore",
     "front-end"
   ],
@@ -49,7 +50,7 @@
     "insight-bitcore-api": ">0.2.10"
   },
   "devDependencies": {
-    "bower": "~1.2.8",
+    "bower": "~1.8.8",
     "grunt": "~0.4.2",
     "grunt-cli": "~0.1.11",
     "grunt-contrib-jshint": "~0.8.0",
@@ -58,7 +59,7 @@
     "grunt-contrib-watch": "*",
     "grunt-macreload": "*",
     "grunt-css": "~0.5.4",
-    "grunt-markdown": "~0.5.0",
+    "grunt-markdown": "~0.7.0",
     "grunt-angular-gettext": "^0.2.15"
   }
 }
